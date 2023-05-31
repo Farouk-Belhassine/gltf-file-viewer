@@ -4,12 +4,23 @@
   <title>Three.js File Upload and Conversion Example</title>
 </head>
 <body>
+  <!--
+  <select id="file-type-select">
+    <option value="gltf">GLTF/GLB</option>
+    <option value="obj">OBJ</option>
+    <option value="stl">STL</option>
+  </select>
+  -->
   <input type="file" id="file-input">
+  <button id="upload-button">Upload</button>
   <script src="three.min.js"></script>
   <script src="GLTFLoader.js"></script>
-  <script src="OrbitControls.js"></script>
   <script src="GLTFExporter.js"></script>
   <script src="DRACOLoader.js"></script>
+  <script src="STLLoader.js"></script>
+  <script src="ThreeBSP.js"></script>
+  <script src="ThreeCSG.js"></script>
+  <script src="OrbitControls.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
